@@ -59,7 +59,7 @@ echo "\n";
 $mktimestamp =mktime(12,34,56,4,1,2020);
 echo $mktimestamp . "\n";
 //date 日付を出力
-echo date("Y/m/d",$mktimestamp) "\n";
+echo date("Y/m/d",$mktimestamp) . "\n";
 //第２引数を省略すると現在時刻を出力する
 echo date("Y/m/d");
 ?>
